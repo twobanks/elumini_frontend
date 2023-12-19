@@ -9,9 +9,9 @@ Heeey, **VR Benefícios**!!! <img src="https://raw.githubusercontent.com/kaueMar
 - `src/assets/*` - Static assets including, const, icons, images and styles.
 - `src/components/*` - All components used: `Challenge`, `Content`, `Footer`, `Header`, `Loading`, `UserBox`
 - `src/hooks/useAuth` - Hook to manage data obtained after login.
-- `src/layouts/home` - Page containing information about the proposed challenge.
-- `src/layouts/login` - Page containing user login.
-- `src/layouts/users` - Pages containing user information after login.
+- `src/layouts/home` - Page containing information about the proposed challenge. [read more](https://github.com/twobanks/elumini_frontend/wiki/Challenge)
+- `src/layouts/login` - Page containing user login. [read more](https://github.com/twobanks/elumini_frontend/wiki/Login)
+- `src/layouts/users` - Pages containing user information after login. [read more](https://github.com/twobanks/elumini_frontend/wiki/Users)
 - `src/types/*` - Types created.
 - `src/tests/components/*` - Test files for components: `Footer`, `Header`, `UserBox`.
 - `src/tests/layouts/*` - Test files for layouts: `Home`, `Login`, `User`.
@@ -64,6 +64,7 @@ password: '0lelplR'
 
 ## 📖 Documentation
 
+- [Getting Started](https://github.com/twobanks/elumini_frontend/wiki/)
 - [Challenge](https://github.com/twobanks/elumini_frontend/wiki/Challenge)
 - [Login](https://github.com/twobanks/elumini_frontend/wiki/Login)
 - [Users](https://github.com/twobanks/elumini_frontend/wiki/Users)
