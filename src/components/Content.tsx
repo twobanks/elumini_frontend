@@ -90,14 +90,16 @@ const Content = () => {
                 </li>
               ))}
             </ul>
-            <div className='pagination_wrapper'>
-              <button title='Anterior' disabled={count === 0} onClick={() => setCount(prevState => prevState - 10)}>
-                <img src={paginate} alt="Anterior" />
-              </button>
-              <button title='Próximo' disabled={count === 90}onClick={() => setCount(prevState => prevState + 10)}>
-                <img src={paginate} alt="Próximo" />
-              </button>
-            </div>
+            {allUser && (
+              <div className='pagination_wrapper'>
+                <button title='Anterior' disabled={count === 0} onClick={() => setCount(prevState => prevState - 10)}>
+                  <img src={paginate} alt="Anterior" />
+                </button>
+                <button title='Próximo' disabled={count === (allUser?.total - 10)}onClick={() => setCount(prevState => prevState + 10)}>
+                  <img src={paginate} alt="Próximo" />
+                </button>
+              </div>
+            )}
           </>
         )}
       </div>
