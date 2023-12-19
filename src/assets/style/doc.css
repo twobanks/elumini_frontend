@@ -1,0 +1,60 @@
+.doc_content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 1em;
+  margin-top: 6em;
+}
+
+.challenge_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  width: 100%;
+  button {
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    color: #00AA13;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+
+.challenge {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  h3 {
+    color: #00AA13;
+    font-size: 20px;
+    margin-bottom: 1em;
+  }
+  p {
+    line-height: 24px;
+  }
+  a {
+    color: #00AA13;
+    &:hover {
+      color: #ffc600;
+    }
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    li {
+      display: flex;
+    }
+  }
+  
+}
