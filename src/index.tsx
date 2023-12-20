@@ -7,6 +7,7 @@ import { UserContextProvider } from './hooks/useAuth';
 import Login from './layouts/Login';
 import './assets/style/global.css';
 import Home from './layouts/Home';
+import { Analytics } from '@vercel/analytics/react';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <UserContextProvider>
     <RouterProvider router={router} />
+    <Analytics debug={false} />
   </UserContextProvider>
 );
 
